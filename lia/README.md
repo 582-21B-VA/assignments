@@ -49,7 +49,7 @@ curl localhost:8000/register -d "email=rika@gmail.com&password=secret123"
 curl localhost:8000/add -u "rika@gmail.com:secret123" -d "name=Buy+milk"
 curl localhost:8000/add -u "rika@gmail.com:secret123" -d "name=Call+mom"
 curl localhost:8000/ -u "rika@gmail.com:secret123"
-curl localhost:800/delete -u "rika@gmai.com:secret123" -d "id=1"
+curl localhost:8000/delete -u "rika@gmai.com:secret123" -d "id=1"
 ```
 
 ## Submission
